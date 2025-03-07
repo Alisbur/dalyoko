@@ -12,7 +12,7 @@
         <input type="text" name="name" required>
       </fieldset>
       <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
-        <label for="email">Имя</label>
+        <label for="email">Почта</label>
         <input type="email" name="email" placeholder="user@example.com" required>
       </fieldset>
       <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
@@ -29,11 +29,11 @@
       </fieldset>
       <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
         <label for="budget_min">Бюджет (мин)</label>
-        <input type="text" name="budget_min" value="0" required>
+        <input type="number" name="budget_min" placeholder="0" required>
       </fieldset>
       <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
         <label for="budget_max">Бюджет (макс)</label>
-        <input type="text" name="budget_max" value="0" required>
+        <input type="number" name="budget_max" placeholder="0" required>
       </fieldset>
       <button type="submit">Отправить</button>
     </form>
