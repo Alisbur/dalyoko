@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+  <body style="padding: 50px; display: flex; justify-content: center;">
+    <form id="form" style="max-width: 400px; display: flex; flex-direction: column; align-items: center; gap: 5px">
+      <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
+        <label for="name">Имя</label>
+        <input type="text" name="name" require>
+      </fieldset>
+      <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
+        <label for="email">Имя</label>
+        <input type="email" name="email" placeholder="user@example.com" require>
+      </fieldset>
+      <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
+        <label for="phone">Телефон</label>
+        <input type="tel" name="phone">
+      </fieldset>
+      <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
+        <label for="project_type">Название проекта</label>
+        <input type="text" name="project_type" require>
+      </fieldset>
+      <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
+        <label for="project_description">Описание проекта</label>
+        <input type="text" name="project_description">
+      </fieldset>
+      <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
+        <label for="budget_min">Бюджет (мин)</label>
+        <input type="text" name="budget_min" value="0" require>
+      </fieldset>
+      <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
+        <label for="budget_max">Бюджет (макс)</label>
+        <input type="text" name="budget_max" value="0" require>
+      </fieldset>
+      <button type="submit">Отправить</button>
+    </form>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
