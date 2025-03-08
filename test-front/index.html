@@ -3,35 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
   <title>Form</title>
 </head>
-  <body style="padding: 50px; display: flex; justify-content: center;">
-    <form id="form" style="max-width: 400px; display: flex; flex-direction: column; align-items: center; gap: 5px">
-      <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
+  <body>
+    <form id="form">
+      <fieldset>
         <label for="name">Имя</label>
         <input type="text" name="name" required>
       </fieldset>
-      <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
+      <fieldset>
         <label for="email">Почта</label>
         <input type="email" name="email" placeholder="user@example.com" required>
       </fieldset>
-      <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
+      <fieldset>
         <label for="phone">Телефон</label>
         <input type="tel" name="phone">
       </fieldset>
-      <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
+      <fieldset>
         <label for="project_type">Название проекта</label>
         <input type="text" name="project_type" required>
       </fieldset>
-      <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
+      <fieldset>
         <label for="project_description">Описание проекта</label>
         <input type="text" name="project_description">
       </fieldset>
-      <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
+      <fieldset>
         <label for="budget_min">Бюджет (мин)</label>
         <input type="number" name="budget_min" placeholder="0" required>
       </fieldset>
-      <fieldset style="width: 100%; display: flex; flex-direction: column; gap: 5px; border: none">
+      <fieldset>
         <label for="budget_max">Бюджет (макс)</label>
         <input type="number" name="budget_max" placeholder="0" required>
       </fieldset>
